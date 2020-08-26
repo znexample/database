@@ -1,5 +1,5 @@
 {
-	"name": "tpl/eloquent",
+	"name": "zntpl/eloquent",
 	"description": "Web application",
 	"keywords": [
 		"application",
@@ -8,9 +8,7 @@
 	"type": "project",
 	"minimum-stability": "stable",
 	"require": {
-		"php7lab/eloquent": "dev-master",
-		"symfony/console": "*",
-		"symfony/yaml": "*"
+		"zncore/db": "dev-master"
 	},
 	"require-dev": {
 		"symfony/debug-pack": "*"
@@ -20,33 +18,6 @@
 		"process-timeout": 1800
 	},
 	"repositories": [
-		{
-			"type": "composer",
-			"url": "https://asset-packagist.org"
-		},
-		{
-			"type": "git",
-			"url": "https://github.com/php7lab/core.git"
-		},
-		{
-			"type": "git",
-			"url": "https://github.com/php7lab/dev.git"
-		},
-		{
-			"type": "git",
-			"url": "https://github.com/php7lab/eloquent.git"
-		},
-		{
-			"type": "git",
-			"url": "https://github.com/php7lab/rest.git"
-		},
-		{
-			"type": "git",
-			"url": "https://github.com/php7lab/test.git"
-		},
-		{
-			"type": "git",
-			"url": "https://github.com/php7lab/sandbox.git"
-		}
+
 	]
 }
