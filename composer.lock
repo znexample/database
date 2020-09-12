@@ -396,11 +396,11 @@
             "time": "2020-03-19T17:45:46+00:00"
         },
         {
-            "name": "php7lab/eloquent",
+            "name": "zncore/db",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/php7lab/eloquent.git",
+                "url": "https://github.com/zncore/db.git",
                 "reference": "ed55165736b659bf50b8522e73828c1e25a42073"
             },
             "require": {
@@ -1337,7 +1337,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "php7lab/eloquent": 20
+        "zncore/db": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
