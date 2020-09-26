@@ -23,7 +23,7 @@ if ( ! class_exists(m_2014_10_14_200000_create_messenger_member_table::class)) {
                 $table
                     ->foreign('user_id')
                     ->references('id')
-                    ->on($this->encodeTableName('fos_user'))
+                    ->on($this->encodeTableName('user_identity'))
                     ->onDelete(ForeignActionEnum::CASCADE)
                     ->onUpdate(ForeignActionEnum::CASCADE);
                 $table
