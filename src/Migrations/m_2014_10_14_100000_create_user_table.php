@@ -3,7 +3,7 @@
 namespace Migrations;
 
 use Illuminate\Database\Schema\Blueprint;
-use ZnCore\Db\Migration\Base\BaseCreateTableMigration;
+use ZnLib\Migration\Domain\Base\BaseCreateTableMigration;
 
 if ( ! class_exists(m_2014_10_14_100000_create_user_table::class)) {
 
