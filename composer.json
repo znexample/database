@@ -8,7 +8,7 @@
 	"type": "project",
 	"minimum-stability": "stable",
 	"require": {
-		"zncore/db": "dev-master"
+		"znlib/db": "dev-master"
 	},
 	"require-dev": {
 		"symfony/debug-pack": "*"
